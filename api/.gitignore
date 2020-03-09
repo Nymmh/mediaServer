@@ -2,3 +2,5 @@ node_modules/*
 src/index.js
 src/models/*
 src/resolver.js
+src/utils/*
+src/utils/folder.js

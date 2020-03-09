@@ -14,8 +14,8 @@ module.exports.typeDefs = gql`
         source:SourceTypes!
         status:StatusTypes!
         season:SeasonTypes!
-        description:String!
-        synonyms:String!
+        description:String
+        synonyms:String
         titles:[AnimeTitles!]!
         images:[AnimeImages!]!
         offsiteLinks:[offsiteLinks!]!
@@ -62,13 +62,14 @@ module.exports.typeDefs = gql`
         episode:String!
         size:String
         ismkv:Boolean!
-        BD:Boolean!
+        BDrip:Boolean!
         resolution:String!
         codec:String!
         frameRate:String!
         aspectRatio:String!
         dualAudio:Boolean!
         subsBy:String
+        audioTerm:String
     }
     enum FormatTypes{
         TV
