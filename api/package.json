@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "anitomyscript": "^2.0.4",
-    "apollo-server-express": "^2.8.1",
+    "apollo-server-express": "^2.14.2",
     "axios": "^0.19.0",
     "btoa": "^1.2.1",
     "express": "^4.17.1",
