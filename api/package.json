@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "nodemon src/index.js"
+    "serve": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "author": "Nymh",
   "license": "GNU Affero General Public",
@@ -18,19 +19,27 @@
   },
   "dependencies": {
     "anitomyscript": "^2.0.4",
+    "apollo-cache-inmemory": "^1.6.5",
+    "apollo-client": "^2.6.8",
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "apollo-link-rest": "^0.8.0-beta.0",
     "apollo-server-express": "^2.8.1",
     "axios": "^0.19.0",
     "btoa": "^1.2.1",
+    "eris": "^0.13.1",
     "express": "^4.17.1",
     "express-graphql": "^0.9.0",
     "ffmpeg-extract-frame": "^1.0.2",
     "ffprobe": "^1.1.0",
     "ffprobe-static": "^3.0.0",
-    "graphql": "^14.4.2",
+    "graphql": "^14.6.0",
+    "graphql-anywhere": "^4.2.6",
     "graphql-tag": "^2.10.1",
     "graphql-tools": "^4.0.5",
     "mongoose": "^5.9.2",
     "node-fetch": "^2.6.0",
+    "qs": "^6.9.3",
     "request": "^2.88.2"
   }
 }

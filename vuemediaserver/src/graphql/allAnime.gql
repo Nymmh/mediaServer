@@ -1,0 +1,11 @@
+query allAnime{
+  anime{
+    _id
+    titles{
+      romaji
+    }
+    images{
+      cover
+    }
+  }
+}

@@ -1,0 +1,11 @@
+query seasonAnime($season:String){
+  anime(season:$season){
+    _id
+    titles{
+      romaji
+    }
+    images{
+      cover
+    }
+  }
+}

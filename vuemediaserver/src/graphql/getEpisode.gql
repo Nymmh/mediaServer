@@ -1,0 +1,21 @@
+query getEpisode($id:ID){
+  episodeSearch(_id:$id){
+    _id
+    episodeLists{
+      ismkv
+      stream
+      thumbnail
+      title
+      episode
+      length
+      dualAudio
+      subsBy
+      BDrip
+      resolution
+      codec
+      aspectRatio
+      frameRate
+      audioTerm
+    }
+  }
+}

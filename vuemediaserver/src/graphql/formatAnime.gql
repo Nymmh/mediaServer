@@ -1,0 +1,11 @@
+query formatAnime($format:String){
+  anime(format:$format){
+    _id
+    titles{
+      romaji
+    }
+    images{
+      cover
+    }
+  }
+}

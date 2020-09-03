@@ -1,0 +1,11 @@
+query sourceAnime($source:String){
+  anime(source:$source){
+    _id
+    titles{
+      romaji
+    }
+    images{
+      cover
+    }
+  }
+}

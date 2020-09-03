@@ -1,0 +1,11 @@
+query statusAnime($status:String){
+  anime(status:$status){
+    _id
+    titles{
+      romaji
+    }
+    images{
+      cover
+    }
+  }
+}
