@@ -39,7 +39,7 @@
     "graphql-tools": "^4.0.5",
     "mongoose": "^5.9.2",
     "node-fetch": "^2.6.0",
-    "qs": "^6.9.3",
+    "qs": "^6.9.7",
     "request": "^2.88.2"
   }
 }
